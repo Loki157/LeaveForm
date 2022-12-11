@@ -1,0 +1,21 @@
+//LeaveForm
+--EMployeeDetails
+*FirstName,LastName
+*Employee Id
+*Email
+*PhoneNumber
+--Leave Details
+*StartLeave
+*EndDate
+*LeaveTYpe with Dropdown
+*DetailedReason
+
+ firstName={formik.values.firstName}
+
+            lastName={formik.values.lastName}
+            employeId={formik.values.employeId}
+            email={formik.values.email}
+
+            no={formik.values.no}
+
+            
